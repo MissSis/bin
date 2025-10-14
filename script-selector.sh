@@ -3,6 +3,7 @@ SCRIPTS=(
     "edit-image-in-clipboard.sh"
     "open_config.sh"
     "record-screen-as-gif-new-terminal.sh"
+    "record-screen-high-fps-mp4-new-terminal.sh"
 )
 
 SCRIPT=$(printf '%s\n' ${SCRIPTS[@]} | wofi --dmenu)
